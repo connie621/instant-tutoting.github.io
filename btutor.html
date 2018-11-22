@@ -1,0 +1,448 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Business Casual - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="col text-right" id="login">
+            <a id="signinbutton" class="btn btn-primary">Hello Monica, Welcome to Instant Tutoring.</a>
+            <a id="account" class="btn btn-primary" href="account.html" style="visibility:visible">My account</a>
+
+        </div>
+    </nav>
+
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+        <!--<span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>-->
+        <span class="site-heading-lower">Instant Tutoring</span>
+        <br />
+        <span class="site-heading-lower-text">A easy way to find your own tutor</span>
+    </h1>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--<div class="collapse navbar-collapse" id="navbarResponsive">-->
+
+            <div class="nav">
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">Find a tutor</a>
+                        <ul>
+                            <li>
+                                <a href="#">High School</a>
+                                <ul>
+                                    <li><a href="math.html">Mathematics</a></li>
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Science</a></li>
+                                    <li><a href="#">Geography</a></li>
+                                    <li><a href="#">Technologies</a></li>
+                                    <li><a href="#">Arts</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Undergraduate</a>
+                                <ul>
+                                    <li><a href="#">Business</a></li>
+                                    <li><a href="#">Information Technology</a></li>
+                                    <li><a href="#">Engineering</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Postgraduate</a>
+                                <ul>
+                                    <li><a href="#">Business</a></li>
+                                    <li><a href="#">Information Technology</a></li>
+                                    <li><a href="#">Engineering</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Interest Courses</a>
+                                <ul>
+                                    <li><a href="#">Cooking</a></li>
+                                    <li><a href="#">Photography</a></li>
+                                    <li><a href="#">Painting</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="btutor.html">Become a tutor</a>
+                        
+                    </li>
+
+
+                    <li>
+                        <a href="about.html">About us</a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+
+            <style>
+                * {
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                }
+                /*一级菜单样式*/
+                .nav {
+                    /*border: 2px solid #FFEEEE;*/
+                    margin: 100px auto;
+                    width: 910px;
+                    height: 48px;
+                    border-right: none;
+                    margin: auto;
+                    text-transform: uppercase;
+                    font-family: 'Sitka Text';
+                    opacity: 1;
+                }
+
+                    .nav > ul {
+                        margin: auto;
+                    }
+
+                        .nav > ul > li {
+                            list-style: none;
+                            width: 200px;
+                            height: 48px;
+                            float: left;
+                        }
+
+                            .nav > ul > li > a {
+                                text-decoration: none;
+                                display: block;
+                                width: 200px;
+                                height: 48px;
+                                line-height: 48px;
+                                text-align: center;
+                                color: white;
+                                font-size: 17px;
+                                font: bolder;
+                            }
+
+
+
+                            .nav > ul > li:hover > a {
+                                color: gold;
+                            }
+
+                            /*二级菜单样式*/
+                            .nav > ul > li > ul {
+                                position: relative;
+                                display: none;
+                            }
+
+
+
+                            .nav > ul > li:hover > ul {
+                                display: block;
+                            }
+
+                            .nav > ul > li > ul > li {
+                                width: 200px;
+                                height: 48px;
+                                float: left;
+                                list-style: none;
+                            }
+
+                                .nav > ul > li > ul > li > a {
+                                    display: block;
+                                    text-decoration: none;
+                                    text-align: center;
+                                    width: 200px;
+                                    height: 48px;
+                                    line-height: 48px;
+                                    background-color: #514026;
+                                    color: #FFFFFF;
+                                }
+
+
+                                /*三级菜单样式*/
+                                .nav > ul > li > ul > li > ul {
+                                    position: relative;
+                                    background-color: #FFCCCC;
+                                    display: none;
+                                }
+
+                                .nav > ul > li > ul > li > a:hover {
+                                    background-color: #85630f;
+                                }
+
+                                .nav > ul > li > ul > li:hover > a {
+                                    background-color: #85630f;
+                                }
+
+                                .nav > ul > li > ul > li:hover > ul {
+                                    display: block;
+                                }
+
+                                .nav > ul > li > ul > li > ul > li {
+                                    position: relative;
+                                    /*width: 00px;*/
+                                    width: 200px;
+                                    height: 48px;
+                                    float: left;
+                                    list-style: none;
+                                    /*border-right: 2px solid #FFEEEE;
+                                  border-left: 2px solid #FFEEEE;
+                                  border-top: 2px solid #FFEEEE;*/
+                                    top: -48px;
+                                    left: 200px;
+                                }
+
+                                    .nav > ul > li > ul > li > ul > li > a {
+                                        display: block;
+                                        text-decoration: none;
+                                        text-align: center;
+                                        width: 200px;
+                                        height: 48px;
+                                        line-height: 48px;
+                                        background-color: #514026;
+                                        color: #FFFFFF;
+                                    }
+
+                                        .nav > ul > li > ul > li > ul > li > a:hover {
+                                            background-color: #85630f;
+                                        }
+            </style>
+
+        </div>
+    </nav>
+
+    <br /><br />
+    <section id="events">
+        <div class="container">
+            <div class="bg-faded rounded p-5 text-center" id="test456">
+                <h2 class="section-heading" style="font:bolder">Become a tutor</h2>
+                <br />
+
+                <a style="color:red">* The columns marked with an (*) are mandatory columns.<br /><br /></a>
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prependr" >
+                        <span class="input-group-text" id="">First and last name<a style="color:red">*</a></span>
+                    </div>
+                    <input type="text" class="form-control">
+                    <input type="text" class="form-control">
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Gender<a style="color:red">*</a></label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Choose...</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prependr">
+                        <span class="input-group-text" id="">Age</span>
+                    </div>
+                    <input type="number" class="form-control">
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prependr">
+                        <span class="input-group-text" id="">Address<a style="color:red">*</a></span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="">City<a style="color:red">*</a></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">State<a style="color:red">*</a></label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Choose...</option>
+                        <option value="1">NSW</option>
+                        <option value="2">QLD</option>
+                        <option value="2">VIC</option>
+                        <option value="2">SA</option>
+                        <option value="2">TAS</option>
+                        <option value="2">WA</option>
+                        <option value="2">ACT</option>
+                    </select>
+
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="">Postcode <a style="color:red">*</a></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prependr">
+                        <span class="input-group-text" id="">Email<a style="color:red">*</a></span>
+                    </div>
+                    <input type="email" class="form-control">
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prependr">
+                        <span class="input-group-text" id="">Contact number<a style="color:red">*</a></span>
+                    </div>
+                    <input type="tel" class="form-control">
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prependr">
+                        <span class="input-group-text" id="">Graduate School</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prependr">
+                        <span class="input-group-text" id="">Resume<a style="color:red">*</a></span>
+                    </div>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile02">
+                        <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                    </div>
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prependr">
+                        <span class="input-group-text" id="">Certification<a style="color:red">*</a></span>
+                    </div>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile02">
+                        <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                    </div>
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Current situation<a style="color:red">*</a></label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Choose...</option>
+                        <option value="1">Student</option>
+                        <option value="2">Full-time worker</option>
+                        <option value="2">Part-time worker</option>
+                        <option value="2">Unemployment</option>
+                        <option value="2">Looking for a job</option>
+                    </select>
+                    </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Experience on tutoring<a style="color:red">*</a></label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Choose...</option>
+                        <option value="1">Less than one year</option>
+                        <option value="2">One to three years</option>
+                        <option value="2">More than three years</option>
+                    </select>
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Academic level<a style="color:red">*</a></label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Choose...</option>
+                        <option value="1">High school</option>
+                        <option value="2">Undergraduate</option>
+                        <option value="3">Postgraduate</option>
+                        <option value="4">Interest course</option>
+                    </select>
+                </div>
+                <br />
+
+                <div class="input-group" style="margin:auto;width:800px">
+                    <div class="input-group-prependr">
+                        <span class="input-group-text" id="">Introduce your profession<a style="color:red">*</a></span>
+                    </div>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <br />
+
+                <div class="text-center" style="margin:auto;width:800px">
+                    <a style="color:red"> <strong>Note: </strong>The authentication will take up to five working days to process. You will receive a confirmation email after one the authentication is finished. </a><br /><br />
+                </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-primary" style="width:250px">Submit</button>
+                    </div>
+                </div>
+            
+            </div>
+    </section>
+
+    <br /><br />
+    <footer class="footer text-faded text-center py-5">
+        <div class="container">
+            <p class="m-0 small">Copyright &copy; Instant Tutoring 2018</p>
+            <p class="m-0 small"><a href="policy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
